@@ -8,6 +8,8 @@ Django Rest Recipe App
 
     docker-compose run app sh -c "python manage.py makemigrations"
 
+    docker-compose run app sh -c "python manage.py createsuperuser"
+
     docker-compose run app sh -c "python manage.py test" 
 
     docker-compose run app sh -c "python manage.py test && flake8"
