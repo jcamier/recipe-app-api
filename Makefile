@@ -11,6 +11,10 @@ down:
 		docker-compose down --remove-orphans
 
 
+makemigrations:
+		docker-compose run --rm app python manage.py makemigrations
+
+
 shell:
 		docker-compose run --rm app python manage.py shell
 
