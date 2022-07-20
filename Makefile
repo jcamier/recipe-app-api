@@ -19,7 +19,7 @@ shell:
 		docker-compose run --rm app python manage.py shell
 
 
-test:
+tests:
 		docker-compose run --rm app python manage.py test
 
 
