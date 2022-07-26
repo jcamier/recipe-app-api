@@ -1,4 +1,4 @@
-all: test lint
+all: tests lint
 
 build:
 		docker-compose build
