@@ -1,4 +1,6 @@
-all: tests lint
+.PHONY: all build up down makemigrations shell test lint
+
+all: test lint
 
 build:
 		docker-compose build
@@ -19,7 +21,7 @@ shell:
 		docker-compose run --rm app python manage.py shell
 
 
-tests:
+test:
 		docker-compose run --rm app python manage.py test
 
 
