@@ -1,6 +1,10 @@
 # recipe-app-api
 Django Rest Recipe App
 
+## Based on a Udemy Course by LondonAppDeveloper
+https://github.com/LondonAppDeveloper/c2-recipe-app-api-2
+
+
 ## Caution warning:
 The keys and secrets are exposed in this repo and should be changed for your personal projects. These are only here for guidance and learning purposes. Do not use any of these in **PRODUCTION**.
 
